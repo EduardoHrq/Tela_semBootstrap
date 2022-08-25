@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Gstyle.css">
+    <title>Good Deal!</title>
+</head>
+<body>
+    
+    <div style="display: block;">
+        <nav id="navBar">
+            <div style="width: 100%; display: flex; align-items: center; justify-content: space-between;">
+
+                <a href="javascript:window.history.go(-1)" id="back">
+                    ◄
+                </a>
+
+                <a href="../index.html">
+                    <h1>Good Deal!</h1>
+                </a>
+
+                <div style="display: flex;" id="cartLogin">
+                    <img src="../src/circle-user.svg" alt="usuario" id="img">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="area">
+        <form>
+            <fieldset class="grupo">
+                
+                <legend><strong>Informações basicas do produto</strong></legend>
+    
+                <div class="campo">
+    
+                    <label for="nome"><strong>Imagem do anuncio:</strong></label>
+                    <input  type="file" name="nome" id="nome" class="in" required >
+    
+                </div>
+
+                <div class="campo">
+    
+                    <label for="nome"><strong>Título:</strong></label>
+                    <input  type="text" name="nome" id="nome" class="in" required >
+    
+                </div>
+    
+                <div class="campo">
+                    
+                    <label for="email"><strong>Descrição:</strong></label>
+                    <textarea name="" id="" required></textarea>
+    
+                </div>
+
+            </fieldset>
+
+            <fieldset class="grupo">
+
+                <legend>Informações para contato</legend>
+    
+                <div class="campo">
+                    <label for="celular"><strong>Celular (Whatsapp):</strong></label>
+                    <input type="tel" name="Celular" id="celular" class="in" required >
+                </div>
+
+                <div class="campo">
+                    <p><strong>Endereço:</strong></p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="campo">
+                            <label for="Quadra"><strong>Quadra:</strong></label>
+                            <input type="tel" name="endereco" id="endereco" class="in" required >
+                        </div>
+
+                        <div class="campo">
+                            <label for="Quadra"><strong>Quadra:</strong></label>
+                            <input type="tel" name="endereco" id="endereco" class="in" required >
+                        </div>
+
+                        <div class="campo">
+                            <label for="Quadra"><strong>Quadra:</strong></label>
+                            <input type="tel" name="endereco" id="endereco" class="in" required >
+                        </div>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div> 
+
+</body>
+</html>

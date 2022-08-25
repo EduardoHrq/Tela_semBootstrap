@@ -1,0 +1,12 @@
+body{
+    justify-content: unset;
+    margin-bottom: 100px;
+}
+
+body h1{
+    margin: 5vh 0;
+}
+
+.spclogin h1{
+    margin: 0 0 7vh 0;
+}
