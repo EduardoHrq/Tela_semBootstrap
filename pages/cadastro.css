@@ -1,12 +1,55 @@
-body{
-    justify-content: unset;
-    margin-bottom: 100px;
+h1{
+    color: rgb(21, 150, 255);
 }
 
-body h1{
-    margin: 5vh 0;
+#header{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.spclogin h1{
-    margin: 0 0 7vh 0;
+#back{
+    width: 100%;
+}
+
+#back a{
+    position: absolute;
+}
+
+#back img{
+    width: 20px;
+}
+
+#cad{
+    background-color: rgb(80, 80, 80);
+    padding: 3vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.grupo{
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 500px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerCad{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 100%;
 }

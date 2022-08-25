@@ -4,56 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Global_Style.css">
-    <link rel="stylesheet" href="login_cadastro.css">
     <link rel="stylesheet" href="cadastro.css">
     <title>Good Deal!</title>
 </head>
 <body>
-    <a href="../index.html"><h1>Good Deal!</h1></a>
-    
-    <div style="width: 100vw; display: flex; justify-content: center;">
-        <div class="spclogin">
-
-            <div id="back">
-                <a href="../index.html">
-                    <img src="../src/arrow-left.svg">
-                </a>
-            </div>
-    
-            <h1>CADASTRO</h1>
-            
-            <form>
-    
-                <div class="campo">
-                    <label for="user">Nome Completo:</label>
-                    <input type="text" name="user" required>
-                </div>
-    
-                <div class="campo">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" required>
-                </div>
-    
-                <div class="campo">
-                    <label for="celular">Celular:</label>
-                    <input type="tel" name="celular" required>
-                </div>
-    
-                <div class="campo">
-                    <label for="data">Data de nascimento:</label>
-                    <input type="date" name="data" required>
-                </div>
-    
-                <div class="campo">
-                    <label for="pass">Senha:</label>
-                    <input type="password" name="pass" required>
-                </div>
-    
-                <button type="submit" class="btn">Enviar</button>
-    
-            </form>
+        <div id="header">
+            <a href="../index.html"><h1>Good Deal!</h1></a>
         </div>
-    </div>
+        
+        <div style="display: flex; justify-content: center;">
+            <div id="cad">
+                <div id="back">
+                    <a href="../index.html">
+                        <img src="../src/arrow-left.svg" alt="voltar">
+                    </a>
+                </div>
+                <div class="headerCad">
+                    <h1>CADASTRO</h1>
+                </div>
+                
+    
+                <form>
+                    <fieldset class="grupo">
+                    
+                        <div class="campo">
+                            <label for="user">Nome Completo:</label>
+                            <input type="text" id="user" required>
+                        </div>
+                    
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    
+                        <div class="campo">
+                            <label for="celular">Celular:</label>
+                            <input type="tel" id="celular" required>
+                        </div>
+                    
+                        <div class="campo">
+                            <label for="data">Data de nascimento:</label>
+                            <input type="date" id="data" required>
+                        </div>
+                    
+                        <div class="campo">
+                            <label for="pass">Senha:</label>
+                            <input type="password" id="pass" required>
+                        </div>
+                    
+                        <button type="submit" class="btn">Enviar</button>
+                    
+                    </fieldset>
+                    
+                </form>
+            </div>
+            
+        </div>
+        
     
 </body>
 </html>

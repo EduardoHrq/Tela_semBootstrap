@@ -8,11 +8,13 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: Arial;
+    background-color: rgb(50, 50, 50);
 }
 
 a{
     text-decoration: none;
     color: #fff;
+    
 }
 
 input{
