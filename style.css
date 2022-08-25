@@ -1,0 +1,109 @@
+#navBar{
+    padding: 20px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navBar h1{
+    color: rgb(21, 150, 255);
+}
+
+#links{
+    list-style-type: none;
+    display: flex;
+    margin-left: 2vw;
+}
+
+#links a{
+    text-decoration: none;
+    padding: 0.5vw;
+    color: #fff;
+    margin: 0.2vw;
+    border-radius: 3px;
+    transition: background-color 500ms ease-in-out;
+}
+
+#links a:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+#dropdown{
+    list-style-type: none;
+}
+
+#drop-items{
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 1vh;
+    position: absolute;
+    width: 10%;
+    min-width: 125px;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#drop-items a{
+    display: block;
+    text-align: left;
+    color: rgb(50, 50, 50);
+}
+
+#drop-items a:hover{
+    color: #fff;
+}
+
+#dropdown:hover #drop-items{
+    visibility: visible;
+}
+
+#search{
+    width: 170%;
+    margin: 0 0.5vw 0 0;
+}
+
+#cartLogin img{
+    margin: 0 1vw 0 0; 
+}
+
+#img{
+    width: 30px;
+}
+
+#carrossel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+
+#carrossel img{
+    width: 100%;
+    height: 70vh;
+
+}
+
+#setasCarrossel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    height: 70%;
+}
+
+#setasCarrossel div{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(135, 135, 135, 0.475);
+}
